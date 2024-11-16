@@ -19,8 +19,8 @@ const styles = StyleSheet.create({
 
     headerStyle: {
         borderWidth: 1,
-        flexDirection: 'row', // Makes items in a row
-        alignItems: 'center', // Vertically center icon and title
+        flexDirection: 'row',
+        alignItems: 'center',
         justifyContent: 'center',
         padding: 10,
     },
@@ -39,9 +39,9 @@ const styles = StyleSheet.create({
     },
 
     imageStyle: {
-        width: 230,           // Set width for the image
-        height: 360,          // Set height for the image
-        resizeMode: 'contain' // Ensures the whole image fits within the space without cropping
+        width: 230,
+        height: 360,
+        resizeMode: 'contain'
     },
 
     waterIcon: {
